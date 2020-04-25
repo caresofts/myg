@@ -1,21 +1,27 @@
 {
-  "short_name": "Stack Towery",
+  "version": "1.1",
   "name": "Stack Towery",
-  "icons": [
-    {
-      "src": "/assets/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/assets/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
+  "launch_path": "myg/stacktowery/index.html",
+  "description": "Stacky Stacy Stacky Go Towery",
+
+  "developer": {
+    "name": "Mr.DarkTechy",
+    "url": "http://example.com"
+  },
+  "installs_allowed_from": [
+    "*"
   ],
-  "start_url": "https://caresofts.github.io/myg/stacktowery/index.html",
-  "background_color": "#F95240",
-  "theme_color": "#F95240",
-  "display": "standalone",
-  "orientation": "portrait"
+  "default_locale": "en",
+  "permissions": {
+    "desktop-notification": {
+      "description": "To show notifications"
+    },
+    "geolocation": {
+      "description": "Marking out user location"
+    },
+    "alarms": {
+      "description": "Scheduling alarms"
+    }
+  },
+  "cursor": true
 }
